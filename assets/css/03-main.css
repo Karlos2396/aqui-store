@@ -163,6 +163,15 @@ body {
     font-weight: bold;
     color: #2A7AE4;
     align-content: flex-end;
+    
+}
+
+.starWars__ver-todo:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px black;
+    background-color: #ffffff;
+    color: #2A7AE4; 
+    border-radius: 1rem;
 }
 
 .starWars__productos {
@@ -578,23 +587,19 @@ body {
 }
 
 .agregar-producto {
-    padding: 5px 9px;
-    background-color: #FFFFFF;
-    color: #000000;
-    border: 4px solid #2A7AE4;
-    transition: .5s all ease-in-out;
     text-decoration: none;
-    border-bottom-right-radius: 10%;
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    font-weight: bold;
+    color: #2A7AE4;
+    align-content: flex-end;
+    
 }
 
 .agregar-producto:hover {
-    transform: scale(2.2);
+    transform: scale(1.1);
     box-shadow: 5px 5px 10px black;
-    background-color: #b7d2f3;
-    color: white;
+    background-color: #ffffff;
+    color: #2A7AE4;
+    border-radius: 1rem;
 }
 
 .agregar__container input {
