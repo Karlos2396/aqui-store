@@ -1,5 +1,5 @@
 <?php 
-$conn=new mysqli("localhost","root","","bdaquistore");
+$conn=new mysqli("localhost","root","J2ceynldth*","aqui_store");
 if (mysqli_connect_error()) {
     printf("Falló la conexión: %s\n", mysqli_connect_error());
     exit();
