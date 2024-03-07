@@ -266,5 +266,21 @@ function registrarUsuario(event) {
   window.location.href = "index.html";
 }
 
+/* Paola  Boton*/ 
+
+function openWhatsAppChat() {
+  // Reemplaza "[número]" con el número de teléfono del asesor en formato internacional
+  var phoneNumber = "[número]";
+  
+  // Reemplaza "[mensaje]" con el mensaje predeterminado (opcional)
+  var message = encodeURIComponent("[mensaje]");
+  
+  // Construye el enlace de WhatsApp
+  var whatsappLink = "https://wa.me/" + phoneNumber + "/?text=" + message;
+  
+  // Abre el enlace en una nueva ventana o pestaña
+  window.open(whatsappLink, '_blank');
+}
+
 
 
