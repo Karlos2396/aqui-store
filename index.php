@@ -351,7 +351,7 @@
                         <label class="footer__nombre" for="nombre">Nombre</label>
                         <input class="footer__input" id="nombre" type="text" required placeholder="Escriba su nombre">
                         <textarea class="footer__textarea" name="text-area" id="" cols="20" rows="5" placeholder="Escribe tu mensaje" title="Escribe tu mensaje" required></textarea>
-                        <button class="footer__btn-enviar-mensaje">Enviar mensaje</button>
+                        <button class="footer__btn-enviar-mensaje">Enviar mensajes</button>
                     </form>
                 </div>
                 
