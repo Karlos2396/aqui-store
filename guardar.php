@@ -35,7 +35,7 @@ mysqli_query ($conn, $consulta);
     <section class="regresar-container"> 
         <div class="-regresar-caja-container">
             <p class="regresar-parrafo">Datos guardados con exito!.</p>
-            <h2><a class="regresar-link" href="index.html">Regresar</a></h2>
+            <h2><a class="regresar-link" href="index.php">Regresar</a></h2>
         </div>
     </section>
 

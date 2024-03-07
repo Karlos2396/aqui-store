@@ -30,5 +30,29 @@
 .regresar-link:hover{
     background-color: #2A7AE4;
     border: 1px solid black;
+}
 
+.tabla-container {
+    width: 100%;
+    height: 50%;
+    /* background-color: green; */
+    border-radius: .8rem;
+    text-align: center;
+}
+
+tr, table, td{
+    border: 1px solid black;
+}
+
+tr{
+    background-color: #2A7AE4;
+    border: 1px solid black;
+}
+
+td {
+    background-color: transparent;
+}
+
+#encabezado {
+    color: black;
 }
